@@ -8,9 +8,15 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello 各位Android大佬!!!!!"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello 各位Android大佬!!"
+        android:text="各位,尽情showTime吧!!!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
